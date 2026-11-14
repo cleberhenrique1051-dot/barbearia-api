@@ -1,0 +1,10 @@
+{
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": ["tests"],
+  "python.analysis.extraPaths": ["."],
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.db": true,
+    "**/.pytest_cache": true
+  }
+}
